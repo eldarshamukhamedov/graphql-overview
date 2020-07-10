@@ -1,0 +1,16 @@
+{
+    "type": "module",
+    "name": "graphql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Eldar Shamukhamedov <shamu1001@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "npx nodemon index.js"
+    },
+    "dependencies": {
+        "apollo-server": "^2.15.1",
+        "graphql": "^15.3.0",
+        "lodash": "^4.17.19"
+    }
+}

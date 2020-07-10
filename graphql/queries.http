@@ -1,0 +1,9 @@
+# Basic query
+POST http://localhost:4000
+content-type: application/json
+
+{
+    "query": "query GetUser { users(ids: [\"8f0649fa-172a-4de4-a291-b0f3bd0aefea\"]) { id firstName lastName } }",
+    "operationName": "GetUser"
+}
+

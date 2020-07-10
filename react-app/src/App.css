@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root {
+    align-items: center;
+    color: #999;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    width: 100%;
+}
+
+#root {
+    align-items: stretch;
+    flex-direction: column;
+    max-width: 32rem;
+}
